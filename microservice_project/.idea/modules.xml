@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-cloud-01/microservice-cloud-01.iml" filepath="$PROJECT_DIR$/microservice-cloud-01/microservice-cloud-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-cloud-02-api/microservice-cloud-02-api.iml" filepath="$PROJECT_DIR$/microservice-cloud-02-api/microservice-cloud-02-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/microservice-cloud-03-provider-product-8001.iml" filepath="$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/microservice-cloud-03-provider-product-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/microservice-cloud-04-consumer-product-80.iml" filepath="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/microservice-cloud-04-consumer-product-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-cloud-05-provider-User-8003/microservice-cloud-05-provider-User-8003.iml" filepath="$PROJECT_DIR$/microservice-cloud-05-provider-User-8003/microservice-cloud-05-provider-User-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-cloud-06-payment-8004/microservice-cloud-06-payment-8004.iml" filepath="$PROJECT_DIR$/microservice-cloud-06-payment-8004/microservice-cloud-06-payment-8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice_project.iml" filepath="$PROJECT_DIR$/.idea/microservice_project.iml" />
+    </modules>
+  </component>
+</project>

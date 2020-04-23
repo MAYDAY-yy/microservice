@@ -1,0 +1,5 @@
+com\mengxuegu\springcloud\entities\Ticket.class
+com\mengxuegu\springcloud\entities\Order.class
+com\mengxuegu\springcloud\entities\Payment.class
+com\mengxuegu\springcloud\entities\Product.class
+com\mengxuegu\springcloud\entities\Users.class

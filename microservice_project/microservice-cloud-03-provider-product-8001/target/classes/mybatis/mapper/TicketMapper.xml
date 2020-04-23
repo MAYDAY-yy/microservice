@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mengxuegu.springcloud.mapper.TicketMapper">
+
+    <select id="findById" resultType="Ticket" parameterType="Long">
+        select tid, ticket_name, number, db_source from ticket where tid=#{tid};
+    </select>
+
+    <select id="findAll" resultType="Ticket">
+        select tid, ticket_name, number, db_source from ticket;
+    </select>
+
+    <insert id="addTicket" parameterType="Ticket">
+        INSERT INTO ticket(ticket_name, db_source) VALUES(#{ticketName}, DATABASE());
+    </insert>
+
+    <update id="bookTicket" parameterType="Ticket" >
+        UPDATE ticket SET number=number-1 where tid=#{tid};
+    </update>
+
+    <insert id="addOrder" parameterType="Order">
+        INSERT INTO orderitem(tid,uid) VALUES(#{tid},#{uid});
+    </insert>
+
+</mapper>

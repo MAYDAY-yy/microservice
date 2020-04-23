@@ -1,0 +1,5 @@
+com\mengxuegu\springcloud\controller\TicketController.class
+com\mengxuegu\springcloud\ProductProvider_8001.class
+com\mengxuegu\springcloud\service\TicketService.class
+com\mengxuegu\springcloud\mapper\TicketMapper.class
+com\mengxuegu\springcloud\service\impl\TicketServiceImpl.class
